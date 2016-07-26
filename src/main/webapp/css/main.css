@@ -1,0 +1,21 @@
+body{
+    /*background: image("../images/light_red_ornate_floral_tileable.jpg"), repeat-x, repeat-y;*/
+    color:lightcoral;
+    font-family: "Te X Gyre Chorus";
+}
+
+h1{
+
+}
+
+a{
+    color: lightcoral;
+}
+
+.nav-tabs>li>a:hover{
+    border-color: lightcoral;
+}
+
+.nav>li>a:hover {
+    background-color: lightcoral;
+}

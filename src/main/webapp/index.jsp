@@ -2,9 +2,10 @@
 <head>
     <title>John &amp; Diane - 07/01/17</title>
 
-    <link rel="shortcut icon"
-          href="./favicon.ico" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,12 +14,14 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href='css/main.css' rel='stylesheet'>
 </head>
 <body>
-<div class="container">
-    <div class="col-md-12">
+<div class="container-fluid">
+    <div class="col-md-12 text-center">
 
-        <div class="col-md-3 logo">DJ</div>
+        <div class="col-md-1"><img src="./images/dj.png" width="150" height="150"></div>
 
         <div class="col-md-8">
             <h1>Diane &amp; John</h1>
@@ -29,7 +32,7 @@
 </div>
 <div class="container-fluid ">
     <div class="col-md-2">
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs nav-stacked">
             <li>
                 <a class="btn" src="#">Bem Vindos</a>
             </li>
@@ -57,7 +60,7 @@
     <div class="col-md-8">
         <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra finibus ante sodales aliquet. Suspendisse a justo pulvinar, cursus dui quis, aliquam velit. Fusce consequat nunc sed sem rutrum pellentesque. Mauris a ipsum eleifend, hendrerit nisi nec, placerat ligula. Nullam elementum id ante eget pulvinar.</p>
-            <img src="IMG-20140914-WA0004.jpg" width="640" height="360">
+            <img src="./images/IMG-20140914-WA0004.jpg" width="640" height="360">
             <p>Ut vestibulum tortor sit amet velit porttitor, quis efficitur enim imperdiet. Sed volutpat ultrices magna, ac tempor nisi eleifend et. Vestibulum at velit lorem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sed diam mollis, egestas justo quis, placerat sem. Integer mauris erat, luctus vitae eros eget, facilisis convallis neque.</p>
         </div>
     </div>
